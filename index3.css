@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    height: 100%;
+     overflow-x: hidden;
+     box-sizing: border-box;  padding: 0;
+}
+.container-fluid{
+    padding: 0;
+    height: 100vh;
+    
+
+}
+.row{
+    
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    background-image: url(img-duhs.jpg);
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+
+}
+.formcontainer
+{width: 80%;
+    flex-direction: column;
+    justify-content: space-between;  /* Space out elements evenly */
+    height: 100%;
+ 
+  
+}
+.form-group {
+    margin: 10px 0;
+      position: relative;/* Add some space between form elements */
+}
+.form-group input{
+    border-radius: 0;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    display: block;    
+    
+}
+h2{
+    font-weight: 300;
+     }
+.btn-success{
+    width: 100%;
+    
+}
+.footer{
+    text-align: center;
+   
+  }
+  .footercol5{
+ 
+    position: absolute;  /* Footer ko ab col-md-5 ke andar fixed karna */
+    bottom: 0;           /* Footer ko col-md-5 ke neeche align karna */
+    left: 0;
+    right: 0;
+    background-color: #fff;  /* Optional: Background color for the footer */
+    padding: 10px 0;   /* Padding for the footer */
+    text-align: center;
+    }
+

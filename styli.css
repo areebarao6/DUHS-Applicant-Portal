@@ -1,0 +1,51 @@
+/* Style for the Popup Modal (background) */
+.popup-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding-top: 100px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth fade-in transition */
+  }
+  
+  /* Style for the content inside the popup */
+  .popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%; /* Adjust width */
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Close button style */
+  .close-btn {
+    color: #aaa;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover,
+  .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Style for Main Content */
+  .main-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
